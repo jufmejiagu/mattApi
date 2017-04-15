@@ -66,10 +66,6 @@ Instalar [mongoDB](https://docs.mongodb.com/manual/installation/)
 npm install
 ```
 
-Set environment (vars):
-```sh
-Edit file .env
-```
 
 Iniciar el servidor:
 ```sh
