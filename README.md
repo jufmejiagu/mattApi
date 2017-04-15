@@ -15,6 +15,49 @@ Tecnologías
 > - Infraestructura -> Express
 > - MongoDB -> Se usa una base de datos no relacional debido a la facilidad para interactuar con los datos,
   Se escoge MongoDB y no otra, como por ejemplo Rethink, debido a la familiaridad con el motor
+>- JWT -> Se hace la arquitectura para usar JSON WEB TOKEn, aunque por rapidez no se implementa completamente.
+>- Las imagenes se suben como strings, se decide no hacer la funcionalidad completa por el tiempo.
+
+MODELOS
+
+* Se asume que las bicicletas también tendrán un identificador único, placa.
+* Se usan subtipos para clasificar los tipos de vehiculos
+* Se asume la fotografía como un String.
+
+```sh
+vehiculo = {
+  cedulaUser: 'Int',
+  placa: 'string', 
+  fotografia: 'string',
+  tipo: {
+    nombre: 'carro',
+    modelo: '',
+    numPuertas: '',
+  },
+  tipo: {
+    nombre: 'moto',
+    cilindraje: 'string',
+    tiempos: 'string',
+  },
+  tipo: {
+    nombre: 'bicicleta',
+  },
+};
+
+const empleado = {
+  nombres: 'String',
+  apellidos: 'String',
+  cedula: 'Int',
+  contraseña: 'string'
+};
+
+const registroParqueadero = {
+  placa: 'string',
+  numeroCelda: 'string',
+  fechaEntrada: 'Date',
+};
+
+```
 
 Instalar dependencias:
 Instalar [mongoDB](https://docs.mongodb.com/manual/installation/)
