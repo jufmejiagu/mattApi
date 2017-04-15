@@ -44,14 +44,14 @@ vehiculo = {
   },
 };
 
-const empleado = {
+empleado = {
   nombres: 'String',
   apellidos: 'String',
   cedula: 'Int',
   contraseña: 'string'
 };
 
-const registroParqueadero = {
+registroParqueadero = {
   placa: 'string',
   numeroCelda: 'string',
   fechaEntrada: 'Date',
