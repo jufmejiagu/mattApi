@@ -3,6 +3,8 @@
 
 
 Instalar dependencias:
+Instalar [mongoDB] (https://docs.mongodb.com/manual/installation/)
+
 ```sh
 npm install
 ```
