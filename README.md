@@ -1,9 +1,17 @@
 ## Getting Started
 
 
+Tecnologías
+-------------
+
+
+> - NodeJS -> Framework elegido por gusto y porque es el único framework backend que conozco
+> - Gulp -> Se usó gulp como automatizador de tareas
+> - Joi -> Joi para la validación de parametros en las rutas
+> - Infraestructura -> Express
 
 Instalar dependencias:
-Instalar [mongoDB] (https://docs.mongodb.com/manual/installation/)
+Instalar [mongoDB](https://docs.mongodb.com/manual/installation/)
 
 ```sh
 npm install
