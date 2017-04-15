@@ -13,6 +13,8 @@ Tecnologías
 > - Gulp -> Se usó gulp como automatizador de tareas
 > - Joi -> Joi para la validación de parametros en las rutas
 > - Infraestructura -> Express
+> - MongoDB -> Se usa una base de datos no relacional debido a la facilidad para interactuar con los datos,
+  Se escoge MongoDB y no otra, como por ejemplo Rethink, debido a la familiaridad con el motor
 
 Instalar dependencias:
 Instalar [mongoDB](https://docs.mongodb.com/manual/installation/)
